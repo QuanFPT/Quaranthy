@@ -12,6 +12,7 @@
 </style>
 
 <body>
+
     <div class="about-wrapper bg-gradient-ps" style="background-image: url('img/background2.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +20,7 @@
     height:850px;">
         @include("tool.menu")
         <div>
-            <input id="height" type="text" style="border:1px solid black;
+            <input id="height" name="height" style="border:1px solid black;
             padding: 0px;
             font-size:20px;
             position:fixed;
@@ -27,10 +28,10 @@
             left: 217px;
             z-index:100;
             font-family: 'Barlow Semi Condensed', sans-serif;
-            " placeholder="m">
+            " type="number"  placeholder="    m" >
         </div>
         <div>
-            <input id="weight" type="text" style="border:1px solid black;
+            <input id="weight" name="weight" style="border:1px solid black;
             padding: 0px;
             font-size:20px;
             position:fixed;
@@ -38,10 +39,10 @@
             left: 217px;
             z-index:100;
             font-family: 'Barlow Semi Condensed', sans-serif;
-            " placeholder="kg">
+            " type="number" placeholder="   kg">
         </div>
         <div>
-            <input id="age" type="text" style="border:1px solid black;
+            <input id="age" name="age" style="border:1px solid black;
             padding: 0px;
             font-size:20px;
             position:fixed;
@@ -49,10 +50,10 @@
             left: 217px;
             z-index:100;
             font-family: 'Barlow Semi Condensed', sans-serif;
-            ">
+            " type="number">
         </div>
         <div>
-            <div class="input" style="border:1px solid black;
+            <div class="input" name="sex" style="border:1px solid black;
             padding: 0px;
             width:213px;
             font-size:20px;
@@ -97,6 +98,15 @@
     <script>
         $(document).ready(function(){
             $("#button").click(function(){
+                @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
                 var height=$("#height").val();
                 var weight=$("#weight").val();
                 var age=$("#age").val();

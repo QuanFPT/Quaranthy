@@ -16,13 +16,13 @@
                                         <div class="collapse navbar-collapse" id="direo-navbar-collapse" >
                                             <ul class="navbar-nav" >
                                                 <li>
-                                                    <a href="/introduce#about-us" style="font-size: 20px" >About us</a>
+                                                    <a href="/#about-us" style="font-size: 20px" >About us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/introduce#goal" style="font-size: 20px" >Goal</a>
+                                                    <a href="/#goal" style="font-size: 20px" >Goal</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/introduce#member" style="font-size: 20px" >Member</a>
+                                                    <a href="/#member" style="font-size: 20px" >Member</a>
                                                 </li>
                                                 <li>
                                                     <a href="/tool" style="font-size: 20px" >Tool</a>

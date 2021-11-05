@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/introduce','viewer@index');
+Route::get('/','viewer@index');
 Route::get('/tool','tool@index');
