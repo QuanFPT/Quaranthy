@@ -16,16 +16,16 @@
                                         <div class="collapse navbar-collapse" id="direo-navbar-collapse" >
                                             <ul class="navbar-nav" >
                                                 <li>
-                                                    <a href="#about-us" style="font-size: 20px" >About us</a>
+                                                    <a href="/Quaranthy#about-us" style="font-size: 20px" >About us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#goal" style="font-size: 20px" >Goal</a>
+                                                    <a href="/Quaranthy#goal" style="font-size: 20px" >Goal</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#member" style="font-size: 20px" >Member</a>
+                                                    <a href="/Quaranthy#member" style="font-size: 20px" >Member</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/tool" style="font-size: 20px" >Tool</a>
+                                                    <a href="/Quaranthy/tool" style="font-size: 20px" >Tool</a>
                                                 </li>
                                                 <li>
                                                     <a href="https://www.facebook.com/Quaranthy-112243334556563" style="font-size: 20px" target="_blank">Contact</a>

@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('','viewer@index');
-Route::get('/tool','tool@index');
+Route::get('/Quaranthy','viewer@index');
+Route::get('/Quaranthy/tool','tool@index');
